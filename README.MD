@@ -18,9 +18,6 @@ Robust Data Pipeline: Built on a rigorous training pipeline that handles data cl
 
 Interactive UI: A clean, responsive interface built with Streamlit.
 
-🚀 Live Demo
-
-(Link to your deployed Streamlit app, e.g., https://crop-disease-detection.streamlit.app)
 
 🛠️ Technologies Used
 
@@ -42,7 +39,7 @@ Follow these steps to set up the project on your local machine.
 
 1. Clone the Repository
 
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+git clone https://github.com/Satyam999999/Crop-Disease-Detection-Classification-Application
 cd your-repo-name
 
 
