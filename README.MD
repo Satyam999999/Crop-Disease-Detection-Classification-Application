@@ -33,47 +33,7 @@ Image Processing: Pillow (PIL), NumPy
 
 Training Environment: Google Colab (GPU)
 
-⚙️ How to Run Locally
 
-Follow these steps to set up the project on your local machine.
-
-1. Clone the Repository
-
-git clone https://github.com/Satyam999999/Crop-Disease-Detection-Classification-Application
-cd your-repo-name
-
-
-2. Install Dependencies
-
-Ensure you have Python 3.8+ installed. Then run:
-
-pip install -r requirements.txt
-
-
-3. Set Up API Credentials
-
-You need a Google Gemini API Key to enable the AI advice feature.
-
-Option A (Environment Variable - Recommended):
-
-Linux/Mac: export GEMINI_API_KEY="your_actual_api_key"
-
-Windows (PowerShell): $env:GEMINI_API_KEY="your_actual_api_key"
-
-Option B (Secrets):
-
-Create a folder .streamlit in the project root.
-
-Create a file .streamlit/secrets.toml.
-
-Add the line: GEMINI_API_KEY = "your_actual_api_key"
-
-4. Run the Application
-
-streamlit run app.py
-
-
-Note: On the first run, the app will automatically download the trained model file (~100MB). This may take a few moments depending on your internet connection.
 
 🔬 Model Development
 
