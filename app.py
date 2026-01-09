@@ -28,12 +28,12 @@ def load_pest_model():
     
     # Check if model exists locally; if not, download it
     if not os.path.exists(model_path):
-        st.info("Downloading trained model from Google Drive... (This happens once)")
+        
         try:
             # Construct the download URL for gdown
             url = f'https://drive.google.com/uc?id={GOOGLE_DRIVE_FILE_ID}'
             gdown.download(url, model_path, quiet=False)
-            st.success("Model downloaded successfully!")
+            
         except Exception as e:
             st.error(f"Failed to download model: {e}")
             return None
